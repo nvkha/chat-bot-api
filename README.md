@@ -1,7 +1,7 @@
 # Chatbot-api
 
 #### This is project using flask to build a chat bot api.A api allow user request include a question, then
-#### systeam wil resonse inlude a anwser if have. 
+#### systeam wil resonse inlude a answer if have. 
 
 ## Issue
 - Current i having problems deploy it pulic. I will deploy it as as soon as possible
@@ -10,13 +10,23 @@
 - POST: /api/v1/question 
 - Post data:
   - input: include question.
-  - question: question wait for anwser.
+  - question: question wait for answer.
 - Example
 ```
 {
     "input":{
       "question": "Ai là người giàu nhất Việt Nam"
     }
+}
+```
+- Example response:
+```
+{
+    "data":{
+      "answer": "Tỉ phú Phạm Nhật Vượng"
+    }
+    "error_code": 0,
+    "error_message": "Success."
 }
 ```
 
