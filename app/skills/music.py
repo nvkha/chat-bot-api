@@ -12,9 +12,10 @@ SECRET_KEY = b'10a01dcf33762d3a204cb96429918ff6'
 
 class MusicSkills:
 
+    @classmethod
     def get_song(cls, question): 
         question = cls.__question_reprocess(question)
-        id = cls.__find_song_id()
+        id = cls.__find_song_id(question)
         ctime = datetime.datetime.now().timestamp()
         url = 'https://zingmp3.vn/api/song/get-song-info?'
         a = f'ctime={ctime}id={id}'    
@@ -56,4 +57,5 @@ class MusicSkills:
             return None
 
     def __question_reprocess(question):
-        return question.replace("mở", "").replace("bài", "").replace("hát", "")
+        question = question.lower()
+        return question.replace("tìm", "").replace("bài", "").replace("hát", "")

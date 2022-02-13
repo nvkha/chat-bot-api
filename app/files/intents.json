@@ -40,7 +40,7 @@
       "context_set": ""
     },
     {"tag": "find_song",
-      "patterns": ["sing", "song", "want to hear the song", "open the song", "open the song My Love", "turn off the music", "stop playing music"],
+      "patterns": ["sing", "song", "want to hear the song", "open the song", "open the song My Love", "turn off the music", "stop playing music", "find song"],
       "responses": [""],
       "context_set": ""
     },

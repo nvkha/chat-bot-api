@@ -34,3 +34,6 @@ class NLP:
         ints = self.assistant._predict_class(question_en)
         if ints[0]['intent'] in mappings.keys():
             return mappings[ints[0]['intent']](question)
+
+
+

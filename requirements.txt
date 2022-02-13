@@ -8,3 +8,4 @@ googlesearch_python==1.1.0
 geopy==2.2.0
 neuralintents==0.0.4
 googletrans==3.1.0a0
+flask-cors==3.0.10
