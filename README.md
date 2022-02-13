@@ -9,8 +9,8 @@
 ## Enpoint
 - POST: /api/v1/question 
 - Post data:
-  input: include question.
-  question: question wait for anwser.
+  - input: include question.
+  - question: question wait for anwser.
 - Example
 ```
 {
