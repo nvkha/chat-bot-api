@@ -1,6 +1,6 @@
 # chat-bot-api
 
-#### This is project using flask to build a chat bot api. User request include a question, then
+#### This is project using flask to build a chat bot api.A api allow user request include a question, then
 #### systeam wil resonse inlude a anwser if have. 
 
 ## Issue
