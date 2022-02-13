@@ -1,7 +1,7 @@
 # chat-bot-api
 
 #### This is project using flask to build a chat bot api. User request include a question, then
-systeam wil resonse inlude a anwser if have. 
+#### systeam wil resonse inlude a anwser if have. 
 
 ## Issue
 - Current i having problems deploy it pulic. I will deploy it as as soon as possible
@@ -21,6 +21,8 @@ systeam wil resonse inlude a anwser if have.
 ```
 
 ## Demo 
+https://user-images.githubusercontent.com/90548693/153760241-0f4a59e6-7e44-4591-9043-78449bcadc7f.mp4
+
 
 
 
