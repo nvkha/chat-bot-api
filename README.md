@@ -12,13 +12,13 @@ systeam wil resonse inlude a anwser if have.
   input: include question.
   question: question wait for anwser.
 - Example
-'''
+```
 {
     "input":{
       "question": "Ai là người giàu nhất Việt Nam"
     }
 }
-'''
+```
 
 ## Demo 
 
