@@ -7,10 +7,12 @@
 - Current i having problems deploy it pulic. I will deploy it as as soon as possible
 
 ## Enpoint
+```
 - POST: /api/v1/question 
 - Post data:
   - input: include question.
   - question: question wait for answer.
+ ```
 - Example
 ```
 {
