@@ -1,7 +1,7 @@
 # Chatbot-api
 
 #### This is project using flask to build a chat bot api. Allow user request include a question, then
-#### systeam wil resonse inlude a answer if have. 
+#### system wil resonse inlude a answer if have. 
 
 ## Issue
 - Current i having problems deploy it pulic. I will deploy it as as soon as possible
